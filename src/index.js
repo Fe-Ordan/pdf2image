@@ -5,10 +5,10 @@ import fs from "fs-extra"
 
 export default class PDF2Pic {
   static defaultOptions = {
-    quality: 0,
+    quality: 100,
     format: "png",
-    size: "768x512",
-    density: 72,
+    size: "1600x2000",
+    density: 300,
     savedir: "./",
     savename: "untitled",
     compression: "jpeg"
